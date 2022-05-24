@@ -1,8 +1,8 @@
-export class Tareas {
+export class Tarea {
     constructor(
-        public tarea: string,
+        public name: string,
         public responsable: string,
         public completeda: false,
-        public id: string
+        public id: number
     ) {}
 }

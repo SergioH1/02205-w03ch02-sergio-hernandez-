@@ -1,35 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Grape+Nuts&display=swap');
 body {
-    width: 480px;
-    height: 450px;
-    margin: 0 auto;
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
 }
 h1 {
-    color: rgba(10, 1, 131, 0.662);
+    font-family: 'Cabin Sketch', cursive;
+    text-decoration-line: underline;
+    color: rgba(9, 1, 111, 0.837);
     text-align: center;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
+    margin-top: 3rem;
+    font-size: 50px;
+    padding: 0;
 }
-.listItemClass {
-    color: #858585;
+.chores-list {
+    color: #5c5c5c;
     font-size: 21px;
     padding: 0;
-    width: 500px;
+    height: 100vh;
+    width: 100 vh;
     border: 2px solid #cecece;
 }
-.listItemClass li {
+.chores-list li {
+    font-family: 'Grape Nuts', cursive;
     list-style: none;
     border-bottom: 2px dotted #cecece;
     text-indent: 20px;
     height: auto;
     padding: 10px;
 }
-.listItemClass li:hover {
+.chores-list li:hover {
     background-color: #f5f5f5;
 }
-.verticalLines {
+.vertical-lines {
     width: 1px;
     float: left;
-    height: 425px;
+    height: 100vh;
     margin-left: 35px;
     border-left: 1px solid rgba(10, 1, 131, 0.662);
     border-right: 1px solid rgba(10, 1, 131, 0.662);
+}
+.input-text {
+    color: #858585;
+    font-family: 'Grape Nuts', cursive;
+    outline: none;
+    background-color: rgba(0, 71, 251, 0.296);
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
 }
